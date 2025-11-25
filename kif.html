@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>King's Investment Fund Project - James Wang</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .file-list {
+            display: grid;
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .file-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: var(--shadow-sm);
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            text-decoration: none;
+            color: var(--color-text);
+            transition: transform 0.2s, box-shadow 0.2s;
+            border: 1px solid var(--color-border);
+        }
+
+        .file-card:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-md);
+            border-color: var(--color-accent);
+        }
+
+        .file-icon {
+            font-size: 2.5rem;
+            color: var(--color-accent);
+        }
+
+        .file-info h3 {
+            margin-bottom: 0.25rem;
+        }
+
+        .file-info p {
+            font-size: 0.9rem;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="app-container">
+        <header class="main-header">
+            <div class="logo-container">
+                <a href="index.html" style="text-decoration: none;">
+                    <div class="logo-box">JW</div>
+                </a>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html#home" class="nav-link">Home</a></li>
+                    <li><a href="index.html#portfolio" class="nav-link active">Portfolio</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="main-content">
+            <section style="max-width: 800px; margin: 0 auto;">
+                <a href="index.html#portfolio"
+                    style="display: inline-flex; align-items: center; gap: 0.5rem; color: var(--color-accent); text-decoration: none; margin-bottom: 2rem;">
+                    <i class="fas fa-arrow-left"></i> Back to Portfolio
+                </a>
+
+                <h1 style="font-size: 2.5rem; margin-bottom: 1rem;">King's Investment Fund (KIF)</h1>
+                <p style="font-size: 1.2rem; opacity: 0.8; margin-bottom: 2rem;">
+                    Comprehensive market analysis and automated trading strategies developed for the King's Investment
+                    Fund competition.
+                </p>
+
+                <div class="file-list">
+                    <a href="assets/kif/Writing Portfolio Report.pdf" target="_blank" class="file-card">
+                        <div class="file-icon"><i class="fas fa-file-pdf"></i></div>
+                        <div class="file-info">
+                            <h3>Portfolio Report</h3>
+                            <p>Detailed analysis and strategy documentation (PDF)</p>
+                        </div>
+                        <i class="fas fa-download" style="margin-left: auto; opacity: 0.5;"></i>
+                    </a>
+
+                    <a href="assets/kif/Portfolio Report Slides.pdf" target="_blank" class="file-card">
+                        <div class="file-icon"><i class="fas fa-file-powerpoint"></i></div>
+                        <div class="file-info">
+                            <h3>Presentation Slides</h3>
+                            <p>Summary presentation of the investment strategy (PDF)</p>
+                        </div>
+                        <i class="fas fa-download" style="margin-left: auto; opacity: 0.5;"></i>
+                    </a>
+
+                    <a href="assets/kif/Spoons Capital.xlsx" target="_blank" class="file-card">
+                        <div class="file-icon"><i class="fas fa-file-excel"></i></div>
+                        <div class="file-info">
+                            <h3>Data Analysis</h3>
+                            <p>Financial models and data backing the strategy (Excel)</p>
+                        </div>
+                        <i class="fas fa-download" style="margin-left: auto; opacity: 0.5;"></i>
+                    </a>
+                </div>
+            </section>
+        </main>
+
+        <footer class="main-footer">
+            <p>&copy; 2025 James Wang. Built with simplicity.</p>
+        </footer>
+    </div>
+</body>
+
+</html>

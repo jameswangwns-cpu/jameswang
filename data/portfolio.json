@@ -1,0 +1,23 @@
+[
+  {
+    "title": "GitHub Profile",
+    "description": "Check out my code repositories and contributions.",
+    "link": "https://github.com/jameswangwns-cpu",
+    "image": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+    "category": "Profile"
+  },
+  {
+    "title": "UK Pairs Trading",
+    "description": "A Streamlit dashboard visualizing statistical arbitrage strategies during the COVID-19 period.",
+    "link": "https://uk-pairs-trading.streamlit.app/",
+    "image": "https://streamlit.io/images/brand/streamlit-mark-color.png",
+    "category": "Project"
+  },
+  {
+    "title": "Personal Finance Tracker",
+    "description": "A comprehensive tool to track income and expenses.",
+    "link": "https://jameswangwns-cpu.github.io/finance-tracker/",
+    "image": "https://cdn-icons-png.flaticon.com/512/2344/2344132.png",
+    "category": "Project"
+  }
+]

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>James Wang</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Marked.js for Markdown parsing -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <!-- Data File (Fixes CORS issues) -->
+    <script src="js/data.js"></script>
+</head>
+
+<body>
+    <div class="app-container">
+        <header class="main-header">
+            <div class="logo-container">
+                <div class="logo-box">JW</div>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#home" class="nav-link active" data-tab="home">Home</a></li>
+                    <li><a href="#experiences" class="nav-link" data-tab="experiences">Experiences</a></li>
+                    <li><a href="#portfolio" class="nav-link" data-tab="portfolio">Portfolio</a></li>
+                    <li><a href="#blog" class="nav-link" data-tab="blog">Blog</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main id="content" class="main-content">
+            <!-- Dynamic Content will be loaded here -->
+        </main>
+
+        <footer class="main-footer">
+            <div class="social-links">
+                <a href="mailto:jameswangwns@gmail.com" class="social-btn" title="Email"><i
+                        class="fas fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/ning-hsi-wang/" target="_blank" class="social-btn"
+                    title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/jameswangwns-cpu" target="_blank" class="social-btn" title="GitHub"><i
+                        class="fab fa-github"></i></a>
+            </div>
+            <p>&copy; 2025 James Wang. Driven by analytical rigor.</p>
+        </footer>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>

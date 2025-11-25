@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Hello World: My First Post",
+        "date": "November 20, 2025",
+        "summary": "Welcome to my new personal website. Here is how I built it.",
+        "filename": "hello-world.md"
+    },
+    {
+        "title": "Why I Love Coding",
+        "date": "November 18, 2025",
+        "summary": "A deep dive into my passion for software development and problem solving.",
+        "filename": "why-coding.md"
+    }
+]
